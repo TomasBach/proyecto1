@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #161718;
+}
+
+main {
+  margin-top: 17vh;
+  z-index: 1500;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.modal-recuperacion {
+  margin-top: 20vh;
+}
+
+.navbar-bg {
+  background-color: #202324;
+  color: #29CD17;
+  width: 100%;
+  font-family: 'Handjet', cursive;
+  border-bottom: #29CD17 1px solid;
+  z-index: 5000;
+}
+
+.lt-color {
+  color: #29CD17;
+  text-decoration: none;
+  font-size: 170%;
+}
+
+.dropdown-color {
+  border: #29CD17 solid 5px;
+  background-color: #202324;
+  font-size: 170%;
+  text-align: center;
+}
+
+.dropdown-color a {
+  color: #29CD17;
+}
+
+.redes-sociales-footer a {
+  color: #29CD17;
+  text-decoration: none;
+}
+
+.texto-footer {
+  color: #29CD17;
+}
+
+.texto-footer a {
+  color: #29CD17;
+  text-decoration: none;
+  display: block;
+}
+
+.cuadro-card {
+  color: #29CD17;
+  box-shadow: 0 0 20px #29CD17;
+  background-color: #202324;
+  width: 75%;
+  min-width: 200px;
+}
+
+.bg-log {
+  min-height: 70vh;
+  background-image: url(../IMAGENES/fondo.png);
+  border-radius: 0%;
+}
+
+.form-color {
+  padding: 5px;
+  border: #29cd179b solid 2px;
+  background-color: #202324;
+  color: #29CD17;
+  text-decoration: none;
+}
+
+.btn-color {
+  padding: 5px;
+  border: #29cd179b solid 2px;
+  background-color: #202324;
+}
+
+.btn-color-cancel {
+  padding: 5px;
+  border: #29cd179b solid 2px;
+  background-color: #29CD17;
+}
+
+.btn-color-cancel {
+  padding: 5px;
+  border: #29cd179b solid 2px;
+  background-color: #29CD17;
+}
+
+.btn-color a {
+  color: #29CD17;
+}
+
+.reg-olv {
+  color: rgba(190, 190, 190, 0.355);
+  text-decoration: none;
+}
+
+.google-face {
+  text-decoration: none;
+  color: #202324;
+}
+
+.reg-olv:hover {
+  color: #29CD17;
+  text-decoration: none;
+}
+
+.titulo-card-log-ingre {
+  font-size: 150%;
+  color: #29CD17;
+}
+
+.img-404 {
+  width: 100vw;
+  height: 86.4vh;
+}
+
+.img-marcas {
+  max-width: 290px;
+  width: 65%;
+  height: 20vh;
+
+}
+
+.linea-fila {
+  background-color: #202324;
+}
+
+.img-marcas-esp {
+  max-width: 290px;
+  width: 45%;
+  height: 28vh;
+}
+
+
+
+@media(max-width:990px) {
+  .log-in-reg {
+    display: block;
+    text-align: center;
+  }
+}
